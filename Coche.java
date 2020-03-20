@@ -1,5 +1,7 @@
 /**
- * @author Jaime Rabasco Ronda
+ * Clase Coche
+ * 
+ * @author Javier Fernandez Rubio
  */
 /*Refactorización
 Extrae una superclase Vehículo con los campos
@@ -22,11 +24,22 @@ public class Coche extends Vehiculo {
 		this.fabricante = fabricante;
 		this.color = color;
 	}
-
+	
+	
+	/**
+	 * Metodo getCilidrada que te devuelve el valor de cilindrada
+	 * 
+	 * @return cilindrada
+	 */
 	public int getCilindrada() {
 		return cilindrada;
 	}
 
+	/**
+	 * Metodo setter de Cilindrada para modificar el valor de cilindrada
+	 * 
+	 * @param cilindrada
+	 */
 
 	public void setCilindrada(int cilindrada) {
 		this.cilindrada = cilindrada;
